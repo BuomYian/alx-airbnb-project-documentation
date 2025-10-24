@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-10-24T10:00:00.000Z" agent="GPT-5" version="24.7.10" type="device">
+  <diagram id="useCaseDiagram" name="Airbnb Clone Use Case Diagram">
+    <mxGraphModel dx="1280" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- System Boundary -->
+        <mxCell id="systemBoundary" value="Airbnb Clone System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="700" height="550" as="geometry"/>
+        </mxCell>
+
+        <!-- Guest Actor -->
+        <mxCell id="guest" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="30" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Host Actor -->
+        <mxCell id="host" value="Host" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="30" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Admin Actor -->
+        <mxCell id="admin" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="30" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Cases (Guest) -->
+        <mxCell id="registerLogin" value="Register / Login" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="viewListings" value="View Listings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="searchProperties" value="Search Properties" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bookProperty" value="Book Property" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="makePayment" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="writeReview" value="Write Review" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="receiveNotification" value="Receive Notification" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Cases (Host) -->
+        <mxCell id="addProperty" value="Add Property Listing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="180" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="manageProperty" value="Manage Property" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="manageBookings" value="Manage Bookings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="receivePayment" value="Receive Payment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="420" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Cases (Admin) -->
+        <mxCell id="manageUsers" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="240" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="manageListings" value="Manage Listings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="300" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="managePayments" value="Manage Payments" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="360" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="monitorSystem" value="Monitor System" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="420" width="150" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections Guest -->
+        <mxCell id="edge1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="guest" target="registerLogin">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="180" as="sourcePoint"/>
+            <mxPoint x="240" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="guest" target="viewListings">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="210" as="sourcePoint"/>
+            <mxPoint x="240" y="110" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="guest" target="searchProperties">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="240" as="sourcePoint"/>
+            <mxPoint x="240" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="guest" target="bookProperty">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="270" as="sourcePoint"/>
+            <mxPoint x="240" y="170" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="guest" target="writeReview">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="330" as="sourcePoint"/>
+            <mxPoint x="240" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="guest" target="receiveNotification">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="360" as="sourcePoint"/>
+            <mxPoint x="240" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Connections Host -->
+        <mxCell id="edge7" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="host" target="addProperty">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="380" as="sourcePoint"/>
+            <mxPoint x="240" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="host" target="manageProperty">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="410" as="sourcePoint"/>
+            <mxPoint x="240" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="host" target="manageBookings">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="470" as="sourcePoint"/>
+            <mxPoint x="240" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="host" target="receivePayment">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="500" as="sourcePoint"/>
+            <mxPoint x="240" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Connections Admin -->
+        <mxCell id="edge11" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="admin" target="manageUsers">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="580" as="sourcePoint"/>
+            <mxPoint x="240" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge12" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="admin" target="manageListings">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="610" as="sourcePoint"/>
+            <mxPoint x="240" y="510" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge13" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="admin" target="managePayments">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="640" as="sourcePoint"/>
+            <mxPoint x="240" y="540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge14" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="admin" target="monitorSystem">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="670" as="sourcePoint"/>
+            <mxPoint x="240" y="570" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Include relationship -->
+        <mxCell id="edgeInclude" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="bookProperty" target="makePayment">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="570" y="325" as="sourcePoint"/>
+            <mxPoint x="670" y="225" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
